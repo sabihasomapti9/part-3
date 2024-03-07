@@ -1,0 +1,47 @@
+body{
+    background-color: #F2FAFB;
+    font-family: "Open sans, sans serif";
+}
+.whole{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 7px;
+ margin-left: 38px;
+}
+.img-listed{
+    width: 12px;
+    height: 17px;
+    padding-left: 6px; 
+}
+.heaa{
+    font-size: 26px;
+    font-weight: 500;
+    font-family: "Open sans", sans-serif;
+}
+.four{
+    padding-left: 2px;
+}
+.custo{
+    width: 100px;
+    height: 38px;
+    display: flex;
+    flex-direction: row;
+    padding-right: 0px;
+    margin-right: 20px;   
+}
+.border{
+    border-bottom: 1.8px solid;
+    border-color:#DDDDDD;
+    inline-size: 1200px;
+    margin-left: 22px;
+    padding-top: 9px;  
+}
+.whiteboard{
+    background-color: white;
+    margin:1px;
+    width: 391px;
+    height: 497px;
+    border-radius: 23px 23px 23px 23px;
+    padding-left: 0px;
+}
