@@ -18,6 +18,7 @@ body{
     color:#7E0CF5;
     font-size: 26px;
     font-weight: 500;
+    padding-left: 7px;
     font-family: "Open sans", sans-serif;
 }
 .custo{
@@ -31,15 +32,15 @@ body{
 .border{
     border-bottom: 1.9px solid;
     border-color:#DDDDDD;
-    inline-size: 1184px;
-    margin-left: 36px;
+    inline-size: 1194px;
+    margin-left: 20px;
     padding-top: 9px;  
 }
 .whiteboard {
     background-color: white;
-    width: 1240px; /* Adjust width as needed */
+    width: 1230px; /* Adjust width as needed */
     height: 560px; /* Adjust height as needed */
-    margin: 7px;
+    margin:7px;
     border-radius: 23px 23px 23px 23px;
   }
 .container {
@@ -47,17 +48,11 @@ body{
     justify-content: center; /* Center horizontally */
     align-items: center;  /* Center vertically */
   }
-.flex-container--2{
-    display: flex;
-    gap:33px;
-    padding-left: 10px;
-    padding-top: 12px;  
-} 
 .img-doot{
     width: 3px;
     height: 3px;
 }
-.image-nig{
+.image-at{
     width: 83px;
     height: 89px;
     flex-direction: row;
@@ -65,7 +60,7 @@ body{
 }
 .hs{
     flex-direction: row; /* Arrange whiteboards horizontally */
-    padding-left: 0px;
+    padding-left: 9px;
     gap:0px; 
 }
 .grief{
@@ -87,4 +82,52 @@ body{
     padding-top: 8px;
     padding-left: 18px;
     padding-bottom: 2px;
+}
+.border{
+    border-bottom: 1.8px solid;
+    border-color:#DDDDDD;
+    inline-size: 1160px;
+    margin-left: 35px;
+    padding-top: 9px;  
+}
+.flex-container--2{
+    display: flex;
+    gap:850px;
+    padding-left: 18px;
+    padding-top: 12px;  
+}
+.image-at{
+    width: 79px;
+    height: 30px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+.image-mar{
+    padding-top: 3px;
+    width: 82px;
+    height:81px;
+    border-radius: 11px 11px 11px 11px;
+}
+.sp-4{
+    padding-left: 3px;
+    display: flex;
+    flex-direction: row;
+    align-items: inline-block;
+    gap:807px;
+    font-size: 13px;
+    padding-top: 8px;
+    padding-left: 34px;
+    padding-bottom: 2px;
+}
+.four{
+    padding-left: 2px;
+}
+.img-fuuu{
+    float:right;
+    width: 20px;
+    height: 20px;
+     padding-left:9px;
+    padding-top: 3px;
 }
